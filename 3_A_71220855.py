@@ -1,0 +1,7 @@
+long = int(input("Masukan Panjang : "))
+lebr = int(input("Masukan Lebar : "))
+r = int(input("Masukan Jari-Jari : "))
+luaslingkaran = float({(math.pi)*(r**2)})/2)
+luas = float(long*lebr)
+jumlahkaleng = float({(luaslingkaran+luas)}/15)
+print("Area tersebut membutuhkan", math.ceil(jumlahkaleng), "Kaleng Cat" )
